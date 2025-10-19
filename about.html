@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alif_PhysioCare-about</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav> 
+     <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#">Close</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li ><a href="service.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="homevisit.html">Book Appointment</a></li>
+        
+    </ul>   
+     <ul>
+      <li class="logo">Alif PhysioCare</li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="service.html">Services</a></li>
+      <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      <li class="hideOnMobile"><a href="homevisit.html">Book Appointment</a></li>
+      <li class="menu-button" onclick="showSidebar()"><a href="#">Menu</a></li>
+    </ul> 
+        
+  </nav>
+
+  <!--about section-->
+  <div>
+  <section class="aboutme">
+<div class="about-container" id="aboutBox">
+    <div class="profile-img">
+      <img src="sadiq.jpg" alt="Dr. Sadiq Rahman" />
+    </div>
+
+    <div class="about-content">
+      <h1>Dr. Sadiq Rahman</h1>
+      <h3>Physiotherapist | LNGP Hospital, Patna</h3>
+      <p>
+        I am Dr. Sadiq Rahman, a passionate physiotherapist dedicated to helping individuals
+        regain movement, strength, and confidence through personalized care.
+        <span class="hidden-text">
+          <br><br>
+          Working at LNGP Hospital, Patna, I specialize in rehabilitation, pain management,
+          and mobility improvement programs designed for patients of all ages.
+          My approach combines clinical expertise, empathy, and patient education to
+          ensure lasting recovery and overall wellness.
+        </span>
+      </p>
+      <button class="btn" id="toggleBtn">Read More</button>
+    </div>
+  </div>
+  </section>
+  </div>
+
+  <!--our status-->
+
+  <section class="stats-section">
+    <div class="stat-box">
+      <div class="stat-number" data-count="6">0</div>
+      <div class="stat-label">Treatments</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number" data-count="50">0</div>
+      <div class="stat-label">Patient Deals</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number" data-count="900">0</div>
+      <div class="stat-label">Days in Service</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number" data-count="0">0</div>
+      <div class="stat-label">Complaints</div>
+    </div>
+  </section> <!--stats section-->
+
+  <!-- Clinic Info Section -->
+  <section class="clinic-info">
+    <h2>Why Choose PhysioCare?</h2>
+    <ul>
+      <li>Personalized treatment plans for every patient</li>
+      <li>Modern equipment and comfortable facilities</li>
+      <li>Experienced and certified physiotherapists</li>
+      <li>Home visit options available</li>
+      <li>Patient education and wellness programs</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Patients Say</h2>
+    <div class="testimonial-box">
+      <p>"Dr. Sadiq and his team helped me recover from a sports injury quickly and safely. Highly recommended!"</p>
+      <span>- Rahul Verma</span>
+    </div>
+    <div class="testimonial-box">
+      <p>"Professional, caring, and effective treatment. My posture has improved a lot!"</p>
+      <span>- Anjali Sharma</span>
+    </div>
+  </section>
+
+</body>
+
+    <footer>
+    © 2025 Alif PhysioCare | All Rights Reserved
+  </footer>
+  
+
+<script src="about.js"></script>
+</html>

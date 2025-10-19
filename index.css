@@ -1,0 +1,275 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    /* Navbar */
+    nav{
+      background-color: whitesmoke;
+      box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    }
+    nav ul{
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+    }
+    nav li{
+      height: 100px;
+    }
+    nav a{
+      height: 50px;
+      padding: 0 50px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color: black;
+      font-weight: bold;
+      margin: 20px 10px 0 0;
+    }
+    nav a:hover{
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+    }
+    nav li:first-child{
+      margin-right: auto;   
+      margin-top: 20px;
+      margin-left: 10px;
+      font-size: 1.5rem;
+      font-weight: bolder;  
+    }
+    .sidebar{
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 250px;
+      z-index: 999;
+      background-color: white;
+      backdrop-filter: blur(5px);
+      box-shadow: -10px 0 15px rgba(0,0,0,0.1);
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .sidebar li{
+      width: 100%;
+    }
+    .sidebar a{
+      width: 100%;
+    }
+    .menu-button{
+      display: none;;
+    }
+    @media (max-width: 880px) {
+      .hideOnMobile {
+        display: none
+      }
+      .menu-button{
+      display: flex;
+      height: 20px;
+      padding: 0 10px 40px 0;
+      font-size: 20px;
+      background-color: rgb(131, 98, 98);
+      width: 100px;
+      height: 50px;
+      border-radius: 10px;
+    
+    }
+    .logo{
+      display: flex;
+      font-size: 1rem;
+      color:rebeccapurple;
+      font-weight: bolder;
+      margin-right: 20px;
+    }
+    nav li{
+      height: 50px;
+    }
+    nav a{
+      height: 100%;
+      padding: 0 30px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color: black;
+      font-weight: bold;
+    }
+    .sidebar li:first-child{
+      margin-right: auto; 
+      padding: 0 10px 40px 0;
+      font-size: 20px;
+      background-color: rgb(131, 98, 98);
+      width: 100px;
+      height: 50px;
+      border-radius: 10px;
+    }
+      
+    }
+    @media (max-width: 440px) {
+      .sidebar {
+        width: 100%;
+      }
+      .menu-button{
+      display: flex;
+      height: 15px;
+      padding: 0 10px 40px 0;
+      font-size: 20px;
+      background-color: rgb(131, 98, 98);
+      width: 100px;
+      height: 50px;
+      border-radius: 10px;
+    }
+    .logo{
+      display: flex;
+      font-size: 1rem;
+      color: rebeccapurple;
+      font-weight: bold;
+    }
+    nav li{
+      height: 50px;
+    }
+    nav a{
+      height: 100%;
+      padding: 0 30px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color: black;
+      font-weight: bold;
+    }
+    }
+        
+    /* Hero Section */
+    .paragaraph{
+  margin: 10px 0px 0px 0px;
+  background: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+  .paragaraph img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }  
+
+    .greed-1 {
+  padding-top: 5%;
+  text-align: center;
+  margin-top: 5%;
+  margin: 0 3px 0 5px;
+}
+.Orthopedic-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  text-transform: up;
+}
+.Orthopedic-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Orthopedic-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.Orthopedic-content {
+  max-width: 600px;
+  text-align: left;
+  color: #555;
+}
+.Orthopedic-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.Orthopedic-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+.b{
+    font-size: 2.5rem;
+}
+.Neurological-section {
+  padding: 60px 20px;
+}
+
+.Neurological-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  margin: 0 3px 0 5px;
+}
+
+.Neurological-content {
+  flex: 1 1 500px;
+  text-align: left;
+}
+
+.Neurological-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.Neurological-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+.t{
+    font-size: 2.5rem;
+}
+
+.Neurological-image {
+  flex: 1 1 500px;
+}
+
+.Neurological-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+
+
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #0077b6;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    
